@@ -1,0 +1,13 @@
+-- sql/create_db.sql
+
+CREATE DATABASE IF NOT EXISTS fb_study_auth CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE fb_study_auth;
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  first_name VARCHAR(100) NOT NULL DEFAULT 'f',
+  last_name VARCHAR(100) NOT NULL DEFAULT 'l',
+  email_or_phone VARCHAR(255) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

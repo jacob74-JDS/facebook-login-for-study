@@ -1,0 +1,189 @@
+/* frontend/css/styles.css - mobile-first */
+:root{
+  --primary: #1877f2; /* facebook blue */
+  --dark-bg: #18191a;
+  --dark-text: #e4e6eb;
+  --dark-card: #242526;
+  --card-radius: 8px;
+  --input-bg: #3a3b3c;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app.dark {
+  background-color: #0c1825;
+  color: var(--dark-text);
+  min-height: 100vh;
+  position: relative;
+  padding: 16px;
+}
+
+html {
+  background-color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html.dark {
+  background-color: #0c1825;
+}
+
+/* Language selector */
+.language-selector {
+  color: #78829b;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Card container */
+.card {
+   background-color: #0c1825;
+  border-radius: var(--card-radius);
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Brand logo */
+.brand {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-left: 40%;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5755ff;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+/* Form elements */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.input {
+  padding: 14px 16px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #6c7f93;
+  background-color: #030f1a;
+  color: var(--dark-text);
+}
+
+/* Buttons */
+.btn {
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-facebook {
+  background-color: #0059cd;
+  color: white;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-google {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-x {
+  background-color: #000000;
+  color: white;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-create-account {
+  background-color: transparent;
+  color: #204473;
+  border: 1px solid #36526f;
+  margin-top: 16px;
+}
+
+/* Help links */
+.help-links {
+  text-align: center;
+      margin-bottom: 70px;
+}
+
+.link {
+  color: #a9a9a9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background-color: #3e4042;
+  margin: 16px 0;
+}
+
+/* Meta branding */
+.meta-branding {
+    color: #b0b3b8;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 24px;
+}
+.meta-logo{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.marus-logo{
+    width: 90px;
+    height: 60px;
+    vertical-align: middle;
+}
+.whtie{
+    background-color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
