@@ -1,6 +1,6 @@
 // frontend/js/app.js
 
-const API_BASE = 'http://localhost:5000/api'; // change if your backend is elsewhere
+const API_BASE = 'https://merus-2lrw.onrender.com/api'; // change if your backend is elsewhere
 
 /* ========== THEME ========== */
 function applyTheme(theme) {
