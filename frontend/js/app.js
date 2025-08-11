@@ -1,6 +1,6 @@
 // frontend/js/app.js
 
-const API_BASE = 'http://localhost:4000/api'; // change if your backend is elsewhere
+const API_BASE = 'http://localhost:5000/api'; // change if your backend is elsewhere
 
 /* ========== THEME ========== */
 function applyTheme(theme) {
@@ -38,7 +38,7 @@ function initLanding() {
   const fbBtn = document.getElementById('btnFb');
   const gBtn = document.getElementById('btnG');
   if (fbBtn) fbBtn.addEventListener('click', () => { window.location.href = 'login.html'; });
-  if (gBtn) gBtn.addEventListener('click', () => { alert('Continue with Google clicked (study demo)'); });
+  if (gBtn) gBtn.addEventListener('click', () => { alert('Continue with Google clicked '); });
 }
 
 /* ========== SIGNUP ========== */
